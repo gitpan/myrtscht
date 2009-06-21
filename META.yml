@@ -1,0 +1,21 @@
+--- #YAML:1.0
+name:                myrtscht
+version:             0.02
+abstract:            My Round robin Tournament SCHeduling for Table tennis
+license:             ~
+author:              
+    - Richard Möhn <myrtscht@cpan.org>
+generated_by:        ExtUtils::MakeMaker version 6.42
+distribution_type:   module
+requires:     
+    Data::Compare:                 0
+    File::Path:                    0
+    Games::Tournament::RoundRobin: 0
+    Log::Log4perl:                 0
+    Net::CUPS:                     0
+    Storable:                      0
+    Test::Command:                 0
+    Test::More:                    0
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3
